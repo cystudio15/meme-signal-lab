@@ -1,0 +1,39 @@
+{
+  "case_id": "ax1_base_launch",
+  "contract_address": "0x0947fb7076bfa307796f8fd533055f6016c6cccc",
+  "chain": "base",
+  "post_read_hard_cap": 1000,
+  "reserved_user_profile_cap": 150,
+  "queries": [
+    {
+      "query_id": "official",
+      "purpose": "确定官方叙事、合约发布和产品说明的源头时间",
+      "max_posts": 20,
+      "query": "from:ax1vc (AX1 OR token OR Clanker OR x402)"
+    },
+    {
+      "query_id": "exact_contract",
+      "purpose": "只采集明确包含官方合约地址的高相关讨论",
+      "max_posts": 250,
+      "query": "\"0x0947fb7076bfa307796f8fd533055f6016c6cccc\""
+    },
+    {
+      "query_id": "original_discussion",
+      "purpose": "采集与 Base、Clanker、x402 或 AgentKit 相关的原创和引用讨论",
+      "max_posts": 400,
+      "query": "(\"$AX1\" OR AX1) (Base OR Clanker OR x402 OR AgentKit) -is:retweet -is:reply"
+    },
+    {
+      "query_id": "callouts",
+      "purpose": "识别喊单、目标市值和追涨叙事",
+      "max_posts": 220,
+      "query": "(\"$AX1\" OR \"0x0947fb7076bfa307796f8fd533055f6016c6cccc\") (buy OR ape OR gem OR target OR \"market cap\" OR mc OR 冲 OR 上车) -is:retweet"
+    },
+    {
+      "query_id": "reply_noise",
+      "purpose": "保留回复、活动互动和潜在低信息内容作为噪声对照组",
+      "max_posts": 110,
+      "query": "(@ax1vc OR \"$AX1\") is:reply"
+    }
+  ]
+}

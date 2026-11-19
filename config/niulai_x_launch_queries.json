@@ -1,0 +1,26 @@
+{
+  "endpoint": "https://api.x.com/2/tweets/search/all",
+  "tracks": [
+    {
+      "id": "launch_origin",
+      "start_time": "2026-08-01T00:00:00Z",
+      "end_time": "2026-08-16T00:00:00Z",
+      "max_posts": 10,
+      "query": "(\"0xbeea1d618e533a387d941f58a7d4c9b7bd377777\" OR \"$NIULAI\" OR (\"牛来\" (BNB OR BSC))) -is:retweet"
+    },
+    {
+      "id": "launch_first_spread",
+      "start_time": "2026-08-16T00:00:00Z",
+      "end_time": "2026-08-21T00:00:00Z",
+      "max_posts": 10,
+      "query": "(\"0xbeea1d618e533a387d941f58a7d4c9b7bd377777\" OR \"$NIULAI\" OR (\"牛来\" (BNB OR BSC))) -is:retweet"
+    },
+    {
+      "id": "launch_acceleration",
+      "start_time": "2026-08-21T00:00:00Z",
+      "end_time": "2026-08-26T00:00:00Z",
+      "max_posts": 10,
+      "query": "(\"0xbeea1d618e533a387d941f58a7d4c9b7bd377777\" OR \"$NIULAI\" OR (\"牛来\" (BNB OR BSC))) -is:retweet"
+    }
+  ]
+}

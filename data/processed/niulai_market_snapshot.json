@@ -1,0 +1,21 @@
+{
+  "contract_address": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+  "network": "bsc",
+  "pool_address": "0xe5ae318389b8d6d09370a675479c64862152d126",
+  "pool_name": "牛来 / USDT 0.25%",
+  "dex": "pancakeswap-v3-bsc",
+  "price_usd": 0.04564909055,
+  "market_cap_usd": 45649090.55,
+  "liquidity_usd": 338938.7548,
+  "volume_24h_usd": 203105.461225676,
+  "price_change_24h_pct": -5.08,
+  "transactions_24h": {
+    "buys": 962,
+    "sells": 1059,
+    "buyers": 298,
+    "sellers": 235,
+    "unique_traders": 407
+  },
+  "source_url": "https://api.geckoterminal.com/api/v2/networks/bsc/tokens/0xbeea1d618e533a387d941f58a7d4c9b7bd377777/pools",
+  "source_note": "GeckoTerminal public API snapshot; values are dynamic."
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "niulai_bnb_current",
+  "raw_collection_directories": [
+    "data/raw/x/niulai_20261118T122042Z",
+    "data/raw/x/niulai_20261118T122059Z",
+    "data/raw/x/niulai_archive_20261118T141819Z",
+    "data/raw/x/niulai_archive_20261118T141911Z",
+    "data/raw/x/niulai_archive_launch_20261118T142038Z"
+  ],
+  "latest_raw_collection_directory": "data/raw/x/niulai_archive_launch_20261118T142038Z",
+  "query_track_reads": 13,
+  "query_tracks": 13,
+  "raw_post_reads": 953,
+  "recent_post_reads": 356,
+  "archive_post_reads": 597,
+  "unique_posts_before_quote_graph": 855,
+  "unique_posts_after_quote_graph": 855,
+  "cross_query_duplicates": 98,
+  "unique_authors": 574,
+  "eligible_unique_posts": 544,
+  "eligible_unique_authors": 387,
+  "ambiguous_or_wrong_contract_posts": 311,
+  "archive_probe_reads": 10,
+  "failed_partial_archive_reads_upper_bound": 193,
+  "collection_status": "complete"
+}

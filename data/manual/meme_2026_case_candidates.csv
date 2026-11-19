@@ -1,0 +1,9 @@
+case_id,token_symbol,chain,narrative_type,benchmark_role,verification_status,source_url,why_included
+ax1_base,AX1,base,ai_agent_x402,research_target,contract_and_snapshot_verified,https://www.geckoterminal.com/base/pools/0x357a05177647f7ad8b02f993e5cd1bc89dd16155,当前作品研究对象
+cashcat_robinhood,CASHCAT,robinhood-chain,chain_mascot_ecosystem,breakout_candidate,event_verified_contract_pending,https://assets.coingecko.com/reports/2026/CoinGecko-2026-Q3-Crypto-Industry-Report.pdf,2026跨链新生态Meme候选且有季度报告事件
+binance_life_bnb,币安人生,bnb-chain,platform_chinese_culture,sustained_platform_candidate,event_and_market_report_verified_contract_pending,https://www.theblockbeats.info/news/59816,平台符号与中文社区扩散案例
+hakimi_bnb,哈基米,bnb-chain,internet_culture,sustained_culture_candidate,market_report_verified_contract_pending,https://m.theblockbeats.info/flash/316973,中文网络文化Meme持续成交候选
+xiuxian_bnb,修仙,bnb-chain,chinese_culture,mid_cap_culture_candidate,market_report_verified_contract_pending,https://m.theblockbeats.info/flash/316973,同链同周期但规模不同的中文文化对照
+boner_robinhood,BONER,robinhood-chain,chain_ecosystem,breakout_candidate,market_report_verified_contract_pending,https://www.theblockbeats.info/newsflash,Robinhood Chain生态与新链注意力候选
+biscotti_robinhood,BISCOTTI,robinhood-chain,pure_speculation,hypergrowth_then_outcome_pending,secondary_report_verified_contract_pending,https://cincodias.elpais.com/criptoactivos/2026-08-28/el-rally-de-bitcoin-da-alas-a-la-especulacion-y-las-memecoins-vuelven-a-despegar.html,无白皮书与强投机驱动的极端样本
+blockbeats_58801_cases,TBD,multi-chain,yearly_review,user_source_pending_manual_extraction,page_temporarily_inaccessible,https://www.theblockbeats.info/news/58801,用户指定的2026爆火案例盘点待页面恢复后逐条拆解

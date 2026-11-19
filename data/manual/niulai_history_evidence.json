@@ -1,0 +1,67 @@
+{
+  "token_symbol": "NIULAI",
+  "contract_address": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+  "scope_note": "Historical chain combines bounded X full-archive samples, public market data and dated external events. It is not a census of Weibo, Douyin or Xiaohongshu.",
+  "stages": [
+    {
+      "stage": "Web2反向走红",
+      "start_date": "2026-08-05",
+      "end_date": "2026-08-14",
+      "summary": "电影先因粗糙画面、反差和恶评被围观，随后‘妈妈’等片段、幕后母子创作故事和‘牛市来了’谐音成为可复制的社交梗。",
+      "market_fact": "上映前10天票房约1万元；随后单日票房快速上升。",
+      "evidence_status": "crosschecked_media",
+      "sources": [
+        "https://apnews.com/article/china-movie-animation-niulai-80a25ad38005f5c6200715a37b704bea",
+        "https://www.odaily.news/zh-TW/post/5212638"
+      ]
+    },
+    {
+      "stage": "链上抢跑与翻译",
+      "start_date": "2026-08-13",
+      "end_date": "2026-08-15",
+      "summary": "同名代币在电影全面热搜前出现；加密玩家把电影梗压缩成Ticker、合约和‘牛市来了’的金融含义，第一批KOL与买家完成从Web2话题到链上资产的翻译。",
+      "market_fact": "公开复盘称迁移市值约4.5万美元，8月15日首次突破50万美元。",
+      "evidence_status": "secondary_reconstruction",
+      "sources": [
+        "https://www.odaily.news/zh-TW/post/5212638",
+        "https://www.panewslab.com/zh/articles/01a00ee8-2042-76dc-b57f-3be4dd275557"
+      ]
+    },
+    {
+      "stage": "全民玩梗与价格互相放大",
+      "start_date": "2026-08-15",
+      "end_date": "2026-08-18",
+      "summary": "短视频剪辑、影院座位图、A股‘牛字辈’和品牌二创扩大受众；链上收益截图、KOL喊单和价格上涨又把注意力反向送回社媒。",
+      "market_fact": "公开复盘称市值先后突破500万、2000万并接近5000万美元；期间出现深跌后V形恢复。",
+      "evidence_status": "secondary_reconstruction",
+      "sources": [
+        "https://www.odaily.news/zh-TW/post/5212638",
+        "https://www.panewslab.com/zh/articles/01a00ee8-2042-76dc-b57f-3be4dd275557"
+      ]
+    },
+    {
+      "stage": "平台入口与高位换手",
+      "start_date": "2026-08-18",
+      "end_date": "2026-08-31",
+      "summary": "Binance Alpha、合约和其他交易所入口降低交易门槛；讨论从IP与梗转向上币预期、成交、持仓和获利兑现。",
+      "market_fact": "Binance于8月30日公告，8月30日11:30 UTC上线最高10倍杠杆的牛来USDT永续合约。",
+      "evidence_status": "official_plus_sampled_x",
+      "sources": [
+        "https://www.binance.com/en/support/announcement/detail/6e9e9784397745f4a49d3f69b1cfebda",
+        "https://www.odaily.news/zh-TW/post/5212638"
+      ]
+    },
+    {
+      "stage": "成熟社区与存量交易",
+      "start_date": "2026-09-01",
+      "end_date": "2026-11-18",
+      "summary": "爆发期结束后仍有官方运营、交易所预期、现货持仓、抄底和聪明钱播报；当前热度更像存量社区交易，而不是新一轮全民破圈。",
+      "market_fact": "需要用月度X样本、近7日讨论和市场OHLCV共同判断，不能只看累计帖子数。",
+      "evidence_status": "sampled_x_plus_market",
+      "sources": [
+        "https://api.x.com/2/tweets/search/all",
+        "https://api.geckoterminal.com/api/v2/"
+      ]
+    }
+  ]
+}

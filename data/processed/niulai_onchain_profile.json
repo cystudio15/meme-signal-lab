@@ -1,0 +1,32 @@
+{
+  "token_symbol": "NIULAI",
+  "contract_address": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+  "creator_candidate": "0x6af3f52369c39f6ca2d9a50799723feff7ff679e",
+  "holder_count_snapshot": 64602,
+  "wallet_transaction_events": 0,
+  "wallet_confirmation_available": false,
+  "conflict_metrics": [
+    "liquidity_control_status",
+    "top10_share_pct"
+  ],
+  "profile_status": "needs_primary_onchain_verification",
+  "validation": {
+    "is_valid": true,
+    "errors": [],
+    "warnings": [
+      "有 5 条项目方声明尚未完成链上核验",
+      "有 3 条二级来源冲突，需要池级/区块级复核"
+    ],
+    "metrics": {
+      "rows": 11,
+      "duplicate_fact_ids": 0,
+      "missing_required_values": 0,
+      "invalid_contract_addresses": 0,
+      "invalid_entity_addresses": 0,
+      "facts_without_value": 0,
+      "project_claims": 5,
+      "conflicting_facts": 3
+    }
+  },
+  "interpretation": "The creator candidate and holder snapshot are research leads. No historical wallet trade path or Smart Money label is verified."
+}

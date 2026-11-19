@@ -1,0 +1,52 @@
+{
+  "definition": {
+    "heat": "attention and trading activity intensity",
+    "authenticity": "whether activity is broad and information-bearing",
+    "stage": "whether attention leads or follows market movement",
+    "tradability": "whether liquidity and risk permit execution"
+  },
+  "social_attention": {
+    "unique_posts": 499,
+    "unique_authors": 369,
+    "posts_per_author": 1.3523,
+    "interaction_total": 6627,
+    "interaction_mean": 13.2806,
+    "interaction_median": 1.0,
+    "interaction_p90": 25.0,
+    "original_share": 0.2184,
+    "reply_share": 0.4269,
+    "retweet_share": 0.2565,
+    "quote_share": 0.0982,
+    "top_10_author_post_share": 0.1964,
+    "single_post_author_share": 0.8591
+  },
+  "propagation": {
+    "direct_quote_posts": 37,
+    "downstream_amplification_posts": 128,
+    "quote_graph_posts": 165,
+    "propagation_observed": true
+  },
+  "collection_quality": {
+    "raw_post_reads": 394,
+    "cross_query_duplicates": 44,
+    "cross_query_duplicate_rate": 0.1117,
+    "quote_graph_unique_addition_rate": 0.2986
+  },
+  "time_coverage": {
+    "start_utc": "2026-11-11T15:46:46+00:00",
+    "end_utc": "2026-11-18T09:55:53+00:00",
+    "observation_hours": 162.1519,
+    "posts_per_observed_hour": 3.0774
+  },
+  "calibration": {
+    "status": "uncalibrated",
+    "display_label": "传播已形成，热度等级待基准校准",
+    "reason": "No matched historical cohort yet. A level requires the same chain, token-age, liquidity and observation-window baseline.",
+    "score_0_100": null
+  },
+  "interpretation": [
+    "Quote and downstream propagation are observed in the collected graph.",
+    "Interaction is long-tailed; report median and P90 beside the mean.",
+    "This is a bounded X API snapshot, not a full-market census."
+  ]
+}

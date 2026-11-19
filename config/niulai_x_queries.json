@@ -1,0 +1,33 @@
+{
+  "case_id": "niulai_bnb_current",
+  "contract_address": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+  "chain": "bsc",
+  "post_read_hard_cap": 700,
+  "queries": [
+    {
+      "query_id": "official",
+      "max_posts": 50,
+      "query": "from:niulai_on_bnb (NIULAI OR \"牛来\" OR BNB OR BSC)"
+    },
+    {
+      "query_id": "exact_contract",
+      "max_posts": 200,
+      "query": "\"0xbeea1d618e533a387d941f58a7d4c9b7bd377777\""
+    },
+    {
+      "query_id": "original_discussion",
+      "max_posts": 200,
+      "query": "(\"$NIULAI\" OR \"牛来\") (BNB OR BSC OR Binance OR PancakeSwap OR KuCoin) -is:retweet -is:reply"
+    },
+    {
+      "query_id": "community_discussion",
+      "max_posts": 150,
+      "query": "(\"$NIULAI\" OR \"牛来\" OR @niulai_on_bnb) (crypto OR token OR 币 OR 牛市 OR BNB) -from:niulai_on_bnb"
+    },
+    {
+      "query_id": "callouts",
+      "max_posts": 100,
+      "query": "(\"$NIULAI\" OR \"0xbeea1d618e533a387d941f58a7d4c9b7bd377777\") (buy OR ape OR gem OR target OR \"market cap\" OR mc OR 冲 OR 上车) -is:retweet"
+    }
+  ]
+}

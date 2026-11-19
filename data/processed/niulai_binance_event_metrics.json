@@ -1,0 +1,19 @@
+{
+  "token_symbol": "NIULAI",
+  "event_time_utc": "2026-09-09T11:30:00+00:00",
+  "market_granularity": "1d_utc",
+  "previous_close_usd": 0.1018,
+  "event_day_open_usd": 0.1023,
+  "event_day_high_usd": 0.1449,
+  "event_day_low_usd": 0.07148,
+  "event_day_close_usd": 0.07848,
+  "event_day_close_return_pct": -22.907662082514747,
+  "event_day_high_vs_previous_close_pct": 42.33791748526523,
+  "event_day_low_vs_previous_close_pct": -29.783889980353628,
+  "event_day_range_vs_open_pct": 71.76930596285435,
+  "event_day_volume_usd": 4940000.0,
+  "volume_multiple_vs_previous_day": 2.1572052401746724,
+  "next_day_close_return_pct": 54.17940876656473,
+  "seven_day_close_return_pct": 28.185524974515808,
+  "causality_limit": "Daily candles overlap the announcement and listing times; they show coincident volatility, not a causal post-event return."
+}

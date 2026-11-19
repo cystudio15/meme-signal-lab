@@ -1,0 +1,34 @@
+{
+  "token_symbol": "NIULAI",
+  "score_name": "evidence_decision_readiness",
+  "score": 48.5,
+  "score_out_of": 100,
+  "components": {
+    "source_traceability": 100.0,
+    "market_data_quality": 70.0,
+    "timing_resolution": 25.0,
+    "wallet_evidence": 0.0,
+    "contract_evidence": 30.0
+  },
+  "weights": {
+    "source_traceability": 0.25,
+    "market_data_quality": 0.2,
+    "timing_resolution": 0.2,
+    "wallet_evidence": 0.2,
+    "contract_evidence": 0.15
+  },
+  "confidence": "low",
+  "lifecycle_observation": "catalyst-driven high volatility",
+  "user_facing_status": "insufficient_evidence_for_push",
+  "blocking_gaps": [
+    "No verified wallet transaction path or wallet labels",
+    "Daily candles cannot measure post-announcement 15m/1h/4h returns",
+    "Conflicting liquidity-control and holder-concentration evidence"
+  ],
+  "market_path_observations": {
+    "event_day_close_return_pct": -22.907662082514747,
+    "event_day_range_vs_open_pct": 71.76930596285435,
+    "next_day_close_return_pct": 54.17940876656473
+  },
+  "explanation": "This score measures whether the product has enough auditable evidence to show a high-confidence signal. It is not a buy score, price forecast, or smart-money claim. Missing wallet evidence scores zero rather than being silently omitted."
+}

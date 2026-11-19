@@ -1,0 +1,31 @@
+{
+  "case_id": "ax1_base_launch_incremental",
+  "post_read_hard_cap": 300,
+  "queries": [
+    {
+      "query_id": "official",
+      "max_posts": 10,
+      "query": "from:ax1vc (AX1 OR token OR Clanker OR x402)"
+    },
+    {
+      "query_id": "exact_contract",
+      "max_posts": 70,
+      "query": "\"0x0947fb7076bfa307796f8fd533055f6016c6cccc\""
+    },
+    {
+      "query_id": "original_discussion",
+      "max_posts": 100,
+      "query": "(\"$AX1\" OR AX1) (Base OR Clanker OR x402 OR AgentKit) -is:retweet -is:reply"
+    },
+    {
+      "query_id": "callouts",
+      "max_posts": 70,
+      "query": "(\"$AX1\" OR \"0x0947fb7076bfa307796f8fd533055f6016c6cccc\") (buy OR ape OR gem OR target OR \"market cap\" OR mc OR 冲 OR 上车) -is:retweet"
+    },
+    {
+      "query_id": "reply_noise",
+      "max_posts": 50,
+      "query": "(@ax1vc OR \"$AX1\") is:reply"
+    }
+  ]
+}

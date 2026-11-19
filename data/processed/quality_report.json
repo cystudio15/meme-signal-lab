@@ -1,0 +1,31 @@
+{
+  "rows": 7,
+  "cases": 3,
+  "unique_source_urls": 4,
+  "duplicate_event_ids": 0,
+  "missing_contract_addresses": 3,
+  "evidence_status_counts": {
+    "partial": 1,
+    "verified": 6
+  },
+  "collection_method_counts": {
+    "manual_verified": 7
+  },
+  "validation": {
+    "is_valid": true,
+    "errors": [],
+    "warnings": [
+      "有 1 条记录尚未验证或仅用于演示"
+    ],
+    "metrics": {
+      "rows": 7,
+      "duplicate_event_ids": 0,
+      "missing_required_values": 0,
+      "invalid_source_types": 0,
+      "invalid_event_times": 0,
+      "invalid_collection_times": 0,
+      "collected_before_event": 0,
+      "unverified_rows": 1
+    }
+  }
+}

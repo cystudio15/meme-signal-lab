@@ -1,0 +1,28 @@
+{
+  "observed_at_bjt": "2026-11-18",
+  "market": {
+    "price": "$0.00982",
+    "market_cap": "$2.46M",
+    "liquidity": "$392K",
+    "volume_24h": "$1.26M",
+    "holders": "2.25K",
+    "turnover_24h": "445%",
+    "buy_volume_24h": "$730K",
+    "sell_volume_24h": "$535K",
+    "net_volume": "+$194K"
+  },
+  "holdings": {
+    "top10": "20%",
+    "dev": "0",
+    "sniper": "0",
+    "insider": "<0.1%",
+    "bundle": "0"
+  },
+  "address_filters": {
+    "kol": "3",
+    "smart_money": "4/8",
+    "sniper": "1",
+    "phishing": "85"
+  },
+  "evidence_note": "Manually transcribed from a third-party token dashboard; dynamic values require timestamped cross-checking."
+}

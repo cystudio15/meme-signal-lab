@@ -1,0 +1,44 @@
+{
+  "case_id": "niulai_bnb_history",
+  "endpoint": "https://api.x.com/2/tweets/search/all",
+  "contract_address": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+  "probe_reads_already_spent": 10,
+  "planned_archive_read_cap": 540,
+  "tracks": [
+    {
+      "id": "history_aug",
+      "start_time": "2026-08-01T00:00:00Z",
+      "end_time": "2026-09-01T00:00:00Z",
+      "max_posts": 190,
+      "query": "(\"0xbeea1d618e533a387d941f58a7d4c9b7bd377777\" OR \"$NIULAI\" OR (\"牛来\" (BNB OR BSC OR Binance OR 币安))) -is:retweet"
+    },
+    {
+      "id": "history_sep",
+      "start_time": "2026-09-01T00:00:00Z",
+      "end_time": "2026-10-01T00:00:00Z",
+      "max_posts": 150,
+      "query": "(\"0xbeea1d618e533a387d941f58a7d4c9b7bd377777\" OR \"$NIULAI\" OR (\"牛来\" (BNB OR BSC OR Binance OR 币安))) -is:retweet"
+    },
+    {
+      "id": "history_oct",
+      "start_time": "2026-10-01T00:00:00Z",
+      "end_time": "2026-11-01T00:00:00Z",
+      "max_posts": 90,
+      "query": "(\"0xbeea1d618e533a387d941f58a7d4c9b7bd377777\" OR \"$NIULAI\" OR (\"牛来\" (BNB OR BSC OR Binance OR 币安))) -is:retweet"
+    },
+    {
+      "id": "history_nov_pre_recent",
+      "start_time": "2026-11-01T00:00:00Z",
+      "end_time": "2026-11-11T13:00:00Z",
+      "max_posts": 70,
+      "query": "(\"0xbeea1d618e533a387d941f58a7d4c9b7bd377777\" OR \"$NIULAI\" OR (\"牛来\" (BNB OR BSC OR Binance OR 币安))) -is:retweet"
+    },
+    {
+      "id": "history_official",
+      "start_time": "2026-08-01T00:00:00Z",
+      "end_time": "2026-11-11T13:00:00Z",
+      "max_posts": 40,
+      "query": "from:niulai_on_bnb (NIULAI OR \"牛来\" OR BNB OR BSC)"
+    }
+  ]
+}

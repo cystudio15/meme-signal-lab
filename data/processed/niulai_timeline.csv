@@ -1,0 +1,22 @@
+event_time_utc,track,event_type,summary,price_usd,volume_usd,evidence_status,source_url
+2026-09-02 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-01,0.08336,4460000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-03 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-02,0.07782,2470000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-04 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-03,0.09614,2020000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-05 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-04,0.08412,2670000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-06 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-05,0.1204,2580000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-07 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-06,0.09108,1810000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-08 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-07,0.0818,1900000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-09 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-08,0.1018,2290000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-09 11:30:00+00:00,platform_or_media,listing_announcement,Binance 公告提供 NIULAI 上线时间与 BSC 合约地址，是可审计的平台催化事件,,,verified,https://www.binance.com/en/support/announcement/detail/6133e417dcfe43a8ad20c0db1b53c7e8
+2026-09-09 14:30:00+00:00,platform_or_media,exchange_listing,Binance 现货 NIULAI/USDT 与 NIULAI/USDC 按公告计划于 14:30 UTC 开放交易,,,verified,https://www.binance.com/en/support/announcement/detail/6133e417dcfe43a8ad20c0db1b53c7e8
+2026-09-10 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-09,0.07848,4940000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-11 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-10,0.121,3640000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-12 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-11,0.1258,3950000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-13 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-12,0.1348,1870000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-14 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-13,0.117,2000000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-14 00:00:00+00:00,platform_or_media,news_report,同一周度报道将 NIULAI 与中文动画及牛市谐音叙事联系，用于比较社区叙事与上币催化,,,verified,https://www.chaincatcher.com/article/2289616
+2026-09-15 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-14,0.1221,1740000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-16 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-15,0.1195,1500000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-17 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-16,0.1006,1690000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-18 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-17,0.1063,1680000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su
+2026-09-19 00:00:00+00:00,market,daily_close,UTC daily candle for 2026-09-18,0.1196,1750000,crosschecked_secondary,https://coinxview.com/coin/NIULAI/lich-su

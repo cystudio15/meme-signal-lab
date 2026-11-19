@@ -1,0 +1,2 @@
+event_id,token_symbol,contract_address,chain,event_type,event_time_utc,collected_at_utc,source_platform,source_url,source_account,source_type,raw_text,language,has_referral_link,is_duplicate,duplicate_group_id,transaction_hash,wallet_address,wallet_label,side,usd_value,price_usd,market_cap_usd,volume_5m_usd,liquidity_usd,dex_boost_amount,evidence_status,notes
+evt_000001,EXAMPLE,TO_BE_REPLACED,bsc,social_post,2026-10-01T08:00:00Z,2026-11-08T08:00:00Z,x,https://example.com/example,example_account,community,示例数据：后续替换为可核验内容,zh,false,false,,,,,,,,,,,,unverified,模板行不参与正式分析

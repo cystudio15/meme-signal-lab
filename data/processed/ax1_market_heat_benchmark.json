@@ -1,0 +1,58 @@
+{
+  "snapshot_utc": "2026-11-18T07:20:25.490433+00:00",
+  "source_url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x0947fb7076bfa307796f8fd533055f6016c6cccc/pools?page=1",
+  "universe": {
+    "unique_pools": 389,
+    "sampling": "ten trending pages plus ten new-pool pages on Base"
+  },
+  "matching": {
+    "match_rule": "nearest_neighbor_log_age_and_liquidity",
+    "cohort_size": 40,
+    "target_pool_id": "base_0x28752b1c1be27a1d5947dc880dd7d969de945f7a7718d6f3747776dfd536ea76",
+    "target_age_bucket": "6-24h",
+    "target_liquidity_bucket": "100k-500k",
+    "minimum_reliable_size": 20,
+    "desired_size": 40,
+    "reliable_cohort_size": true,
+    "matching_note": "Nearest-neighbor fallback uses log token age plus half-weighted log liquidity distance when strict buckets contain fewer than the minimum sample."
+  },
+  "target": {
+    "pool_id": "base_0x28752b1c1be27a1d5947dc880dd7d969de945f7a7718d6f3747776dfd536ea76",
+    "pool_name": "AX1 / USDC",
+    "pool_created_at": "2026-11-17 15:37:05+00:00",
+    "token_age_hours": 15.722358453611111,
+    "token_age_bucket": "6-24h",
+    "liquidity_usd": 371999.3686,
+    "liquidity_bucket_usd": "100k-500k",
+    "fdv_usd": 8798071.911,
+    "volume_h24_usd": 1230749.62527796,
+    "transactions_h24": 3922,
+    "unique_traders_h24": 671,
+    "volume_liquidity_ratio_h24": 3.3084723501274245,
+    "price_change_h24_pct": 10774.111
+  },
+  "calibration": {
+    "status": "calibrated_snapshot",
+    "cohort_size": 40,
+    "metric_percentiles": {
+      "volume_h24_usd": 97.5,
+      "transactions_h24": 97.5,
+      "unique_traders_h24": 97.5,
+      "volume_liquidity_ratio_h24": 97.5
+    },
+    "market_activity_score_0_100": 97.5,
+    "score_definition": "equal-weight mean of four same-stage activity percentiles",
+    "excluded_from_score": [
+      "price_change_h24_pct",
+      "fdv_usd",
+      "market_cap_usd"
+    ],
+    "warning": "This is a current pool snapshot, not a prediction or investment score."
+  },
+  "limits": [
+    "The universe contains trending and new Base pools, not only manually verified Meme tokens.",
+    "Nearest-neighbor matching improves comparability but does not create historical outcomes.",
+    "Percentiles describe this collection-time snapshot and can change with the market.",
+    "Market activity is separate from social authenticity, safety and expected return."
+  ]
+}

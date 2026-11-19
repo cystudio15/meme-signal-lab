@@ -1,0 +1,9 @@
+event_id,token_symbol,contract_address,chain,event_type,event_time_utc,collected_at_utc,source_platform,source_url,source_account,source_type,raw_text,language,has_referral_link,is_duplicate,side,price_usd,evidence_status
+evt_demo_001,DEMO,0x000000000000000000000000000000000000dEaD,bsc,social_post,2026-10-01T08:00:00Z,2026-11-08T08:00:00Z,demo,demo://community-first,community_01,community,"社区首次讨论（合成演示事件）",zh,false,false,,,unverified
+evt_demo_002,DEMO,0x000000000000000000000000000000000000dEaD,bsc,social_post,2026-10-01T08:12:00Z,2026-11-08T08:00:00Z,demo,demo://kol-post,kol_01,kol,"KOL 发布观点（合成演示事件）",zh,false,false,,,unverified
+evt_demo_003,DEMO,0x000000000000000000000000000000000000dEaD,bsc,wallet_trade,2026-10-01T08:18:00Z,2026-11-08T08:00:00Z,demo,demo://wallet-buy,wallet_demo,onchain,"已标记钱包买入（合成演示事件）",zh,false,false,buy,0.00040,unverified
+evt_demo_004,DEMO,0x000000000000000000000000000000000000dEaD,bsc,market_snapshot,2026-10-01T08:20:00Z,2026-11-08T08:00:00Z,demo,demo://market-0820,demo_market,market,"成交量开始放大（合成演示事件）",zh,false,false,,0.00043,unverified
+evt_demo_005,DEMO,0x000000000000000000000000000000000000dEaD,bsc,social_post,2026-10-01T08:32:00Z,2026-11-08T08:00:00Z,demo,demo://affiliate-post,affiliate_01,affiliate,"低费率和返佣推广（合成演示事件）",zh,true,false,,,unverified
+evt_demo_006,DEMO,0x000000000000000000000000000000000000dEaD,bsc,paid_visibility,2026-10-01T08:40:00Z,2026-11-08T08:00:00Z,demo,demo://paid-visibility,demo_dex,paid_visibility,"出现付费曝光（合成演示事件）",zh,false,false,,,unverified
+evt_demo_007,DEMO,0x000000000000000000000000000000000000dEaD,bsc,wallet_trade,2026-10-01T09:05:00Z,2026-11-08T08:00:00Z,demo,demo://dev-sell,wallet_dev,onchain,"DEV 地址卖出（合成演示事件）",zh,false,false,sell,0.00061,unverified
+evt_demo_008,DEMO,0x000000000000000000000000000000000000dEaD,bsc,market_snapshot,2026-10-01T09:20:00Z,2026-11-08T08:00:00Z,demo,demo://market-0920,demo_market,market,"价格回撤（合成演示事件）",zh,false,false,,0.00048,unverified

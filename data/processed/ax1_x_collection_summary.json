@@ -1,0 +1,22 @@
+{
+  "case_id": "ax1_base_launch",
+  "raw_collection_directories": [
+    "data/raw/x/ax1_20261118T041459Z",
+    "data/raw/x/ax1_20261118T095623Z"
+  ],
+  "latest_raw_collection_directory": "data/raw/x/ax1_20261118T095623Z",
+  "collection_runs": 2,
+  "query_track_reads": 10,
+  "query_tracks": 5,
+  "raw_post_reads": 394,
+  "unique_posts_before_quote_graph": 350,
+  "quote_graph_post_reads": 165,
+  "diagnostic_post_reads": 2,
+  "unique_posts_after_quote_graph": 499,
+  "cross_query_duplicates": 44,
+  "unique_authors": 369,
+  "direct_quote_edges": 37,
+  "downstream_amplification_edges": 128,
+  "profile_reads": 150,
+  "collection_status": "complete"
+}

@@ -1,0 +1,14 @@
+#!/bin/zsh
+
+set -euo pipefail
+
+if [[ -n "${GIT_BIN:-}" ]]; then
+  exec "$GIT_BIN" "$@"
+fi
+
+if (( $+commands[git] )); then
+  exec "$commands[git]" "$@"
+fi
+
+print -u2 "未找到 Git。请先安装 Git，或通过 GIT_BIN 指定可执行文件。"
+exit 1
